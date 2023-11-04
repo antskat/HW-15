@@ -1,0 +1,88 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visibility-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+    width: 1030px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.holder {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    flex-basis: 330px;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    overflow: hidden;
+}
+.a1 {
+    background-color: red;
+    flex-grow: 1;
+    flex-basis: 331px;
+    border-top-left-radius: 5px;
+}
+.a2 {
+    background-color: blue;
+    order: 2;
+    flex-grow: 2;
+}
+.a3 {
+    background-color: blueviolet;
+    order: 1;
+    flex-grow: 2;
+}
+.a4 {
+    background-color: green;
+    order: 3;
+}
+.a5 {
+    background-color: yellow;
+    flex-grow: 1;
+    flex-basis: 331px;
+    border-top-right-radius: 10px;
+}
